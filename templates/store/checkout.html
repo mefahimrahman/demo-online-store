@@ -72,11 +72,11 @@
         document.getElementById("shipping-info").innerHTML = "";
     }
 
-    if(user != 'AnnoymousUser') {
+    if(user != 'AnonymousUser') {
         document.getElementById('user-info').innerHTML = "";
     }
 
-    if(shipping == 'False' && user != 'AnnoymousUser') {
+    if(shipping == 'False' && user != 'AnonymousUser') {
         // Hide Entire from is user is logged in and product is digital
         document.getElementById('form-wrapper').classList.add('hidden');
         // Show  payment if user is logged in but any product is digital
